@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
+        <title> Portfolio | Harsh Raghav </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Harsh</a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--theme change button-->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Harsh Raghav</h1>
+                        <h3 class="home__education">Frontend Developer & Programmer</h3>
+                        <div class="home__buttons">
+                            
+                            <a href="#about" class="button" onclick="window.open('./assets/pdf/Harsh_Frontend_Resume.pdf')">Resume</a>
+                        </div>
+                    </div>
+                    <div class="home__handle">
+                        <img src="assets/img/Harsh_pic.jpg" style="object-fit: cover;" alt="" class="home__img">
+                    </div>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/harshraghav718@gmail.com" class="home__social-link" target="_blank">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://www.instagram.com/harshraghav58/" class="home__social-link" target="_blank">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://github.com/Rghv77" class="home__social-link" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                       
+                    </div>
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About me</h2>
+                <div class="about__container container grid">
+                    <img src="assets/img/Harsh_pic.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx bx-award about__icon'></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">6 Months+ Learning</span>
+                            </div>
+                            <div class="about__box">
+                                <i class='bx bx-briefcase-alt about__icon'></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">5+ Projects</span>
+                            </div>
+                            <div class="about__box">
+                                <i class='bx bx-support about__icon'></i>
+                                <h3 class="about__title">Support</h3>
+                                <span class="about__subtitle">Online 24/7</span>
+                            </div>
+                        </div>
+                        <p class="about__description">
+                            I'm a frontend developer and a programmer having 6 months of internship experience who loves to create digital experiences. I create useful websites with my HTML, CSS, JavaScript and ReactJs expertise. I'm constantly improving my skills by exploring new frameworks and libraries. 
+                            <br>
+                            I enjoy solving complex problems and finding beautiful solutions.I want to learn, I will be informed about the latest works. 
+                            <br>
+                            Let's create something great together!
+                        </p>
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My Abilities</span>
+                <h2 class="section__title">My Skills</h2>
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Development</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Tailwind CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">ExpressJs</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            
+                            
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">React Js</h3>
+                                    <span class="skills__level"> Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">NodeJs</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Programming</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Data <br> Structures</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">OOPs</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Algorithms</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Operating <br> System</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Developer Tools</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">VsCode</h3>
+                                    <!-- <span class="skills__level">Advanced</span> -->
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Github</h3>
+                                    <!-- <span class="skills__level">Intermediate</span> -->
+                                </div>
+                            </div>
+
+                           
+                            </div>
+
+                            <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <!-- <span class="skills__level">Intermediat</span> -->
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </section>
+            
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">My Portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all'>All</span>
+                    <span class="work__item" data-filter='.client'>Client's</span>
+                    <span class="work__item" data-filter='.personal'>Personal</span>
+                </div>
+                <div class="work__container container grid">
+
+                    <div class="work__card mix client">
+                        <img src="assets/img/HeyBuddy.png" alt="" class="work__img">
+                        <h3 class="work__title">HeyBuddy</h3>
+                        <a href="https://weather-app-kanchi-khandelwal.netlify.app/" target="_blank" class="work__button">
+                            HeyBuddy's Startup website <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div>
+                    <div class="work__card mix personal">
+                        <img src="assets/img/Movie-GPT.png" alt="" class="work__img">
+                        <h3 class="work__title">Movie-GPT</h3>
+                        <a href="https://snake-game-kanchi-khandelwal.netlify.app/" class="work__button" target="_blank">
+                            Movie-GPT is collection of movies! <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix client">
+                        <img src="assets/img/WeOwn.png" alt="" class="work__img">
+                        <h3 class="work__title">WeOwn</h3>
+                        <a href="https://aesthetic-clock.netlify.app/" class="work__button" target="_blank">
+                            RealEstate Website! <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix client">
+                        <img src="assets/img/Kaushambi.png" alt="" class="work__img">
+                        <h3 class="work__title">Kaushambi Airways</h3>
+                        <a href="https://calculator-kanchi-khandelwal.netlify.app/" class="work__button" target="_blank">
+                        Ticket Booking website! <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div>
+
+                    
+
+                    <div class="work__card mix personal">
+                        <img src="assets/img/AllTube.png" alt="" class="work__img">
+                        <h3 class="work__title">AllTube</h3>
+                        <a href="https://test-your-memory-by-this-game.netlify.app/" class="work__button" target="_blank">
+                             Youtube Frontend clone! <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div>
+
+                    <!-- <div class="work__card mix games">
+                        <img src="assets/img/tic tac toe cover.jpg" alt="" class="work__img">
+                        <h3 class="work__title">Tic-Tac-Toe</h3>
+                        <a href="https://tic-tac-toe-showdown.netlify.app/" class="work__button" target="_blank">
+                            Tic Tac Toe Triumph! <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/netflixcover.jpg" alt="" class="work__img">
+                        <h3 class="work__title">Netflix Clone</h3>
+                        <a href="https://netflix-clone-home-page.netlify.app/" class="work__button" target="_blank">
+                            Netflix, Your World of Entertainment! <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+                    </div> -->
+                </div>
+            </section>
+
+
+            <!-- <section class="max-w-screen-xl mx-auto px-4 relative pb-8 sm:pb-16" style="margin-top:40px">
+                <h2
+                id="projects"
+                  class="text-3xl sm:text-[40px] bg-[#111] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] sm:border-b-2 border-[#1788ae]"
+                >
+                  Projects
+                </h2>
+                <div
+                  class="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative"
+                >
+                  <div
+                    class="h-[1px] left-1/4 right-1/2 bg-[#1788ae] absolute top-1/2 hidden sm:block"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full border-[3px] border-[#459bd5] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+                  ></div>
+                  <a
+                    href="https://heybuddy.co.in"
+                    class="flex w-full relative justify-center sm:justify-start"
+                    target="_blank"
+                  >
+                    <div
+                      class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200"
+                    >
+                      <img
+                        class="max-w-[400px] w-full mr-auto relative rounded-lg z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
+                        src="./assets/img/HeyBuddy.png"
+                        alt=""
+                      />
+                      <span
+                        class="flex group-hover:-top-14 ease-jump duration-200 bg-[#459bd5] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                        >HeyBuddy
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+          
+                  <div class="w-full">
+                    <h3 class="text-[#459bd5] font-bold text-2xl md:text-4xl">
+                      HeyBuddy
+                    </h3>
+                    <span class="text-[#459bd5] text-base md:text-lg"
+                      >(Client Project)</span
+                    >
+                    <p class="text-justify text-sm md:text-base mt-2">
+                      Developed a fully responsive website for a startup, ensuring optimal user experience on all devices.
+          Enhanced the UI with a modern and intuitive design. Focused on delivering a seamless and engaging user interface.
+                    </p>
+          
+                    <ul class="flex flex-wrap gap-2 mt-2">
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #react.js
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #redux
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #tailwind
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #swiper.js
+                      </li>
+                      
+                      
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #css
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #tailwindCSS
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #javascript
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #figma
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #API integration
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+          
+                <div
+                  class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
+                >
+                  <div class="order-2 sm:order-1 w-full">
+                    <h3 class="text-[#ffe578] font-bold text-2xl md:text-4xl">
+                      WeOwn
+                    </h3>
+                    <span class="text-[#ffe578] text-base md:text-lg"
+                      >(Client Project)</span
+                    >
+                    <p class="text-justify text-sm md:text-base mt-2">
+                      Developed a fully dynamic real estate website for a startup with a modern and responsive design.
+          Implemented API integration for seamless data flow. Collaborated closely with the backend team for a cohesive development process.
+                    </p>
+          
+                    <ul class="flex flex-wrap gap-2 mt-2">
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #react.js
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #express.js
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #node.js
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #swiper.js
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #mongoDB
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #mongoose
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #css
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #javascript
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #figma
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #API integration
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="h-[1px] left-1/2 right-1/4 bg-[#1788ae] absolute top-1/2 hidden sm:block"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full border-[3px] border-[#ffe578] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+                  ></div>
+                  <a
+                  href="https://dev.weown.ai"
+                  target="_blank"
+                    class="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
+                  >
+                    <div
+                      class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto"
+                    >
+                      <img
+                        class="max-w-[400px] w-full rounded-lg relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
+                        src="./assets/images/weown.webp"
+                        alt=""
+                      />
+                      <span
+                        class="flex group-hover:-top-14 ease-jump duration-200 text-black bg-[#ffe578] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                        >WeOwn
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
+                >
+                  <div
+                    class="h-[1px] left-1/4 right-1/2 bg-[#1788ae] absolute top-1/2 hidden sm:block"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full border-[3px] border-[#fc815c] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+                  ></div>
+                  <a
+                  href="https://kaushambiairways.com/"
+                  target="_blank"
+                    class="flex w-full relative justify-center sm:justify-start"
+                  >
+                    <div
+                      class="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200"
+                    >
+                      <img
+                        class="max-w-[400px] w-full mr-auto rounded-lg relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
+                        src="./assets/images/airways.webp"
+                        alt=""
+                      />
+                      <span
+                        class="flex group-hover:-top-14 ease-jump duration-200 bg-[#fc815c] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                        >Kaushambi Airways
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+          
+                  <div class="w-full">
+                    <h3 class="text-[#fc815c] font-bold text-2xl md:text-4xl">
+                      Kaushambi Airways
+                    </h3>
+                    <span class="text-[#fc815c] text-base md:text-lg"
+                      >(Client Project)</span
+                    >
+                    <p class="text-justify text-sm md:text-base mt-2">
+                      Created an Airways website for a startup with a fully responsive layout.
+          Focused on delivering an improved and user-friendly UI. Enhanced the design to ensure an optimal user experience across all devices.
+                    </p>
+          
+                    <ul class="flex flex-wrap gap-2 mt-2">
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #react.js
+                      </li>
+                      
+                      
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #swiper.js
+                      </li>
+                      
+                      
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #css
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #tailwindCSS
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #javascript
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #figma
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #API integration
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
+                >
+                  <div class="order-2 sm:order-1 w-full">
+                    <h3 class="text-[#47afa1] font-bold text-2xl md:text-4xl">
+                      Movie-GPT
+                    </h3>
+                    <span class="text-[#47afa1] text-base md:text-lg"
+                      >(Personal Project)</span
+                    >
+                    <p class="text-justify text-sm md:text-base mt-2">
+                      Leveraged the TMDB API to fetch and display movie data and integrated OpenAI APIs for search functionality. Implemented secured authentication using Firebase and streamlined state management with Redux-Toolkit.
+                    </p>
+          
+                    <ul class="flex flex-wrap gap-2 mt-2">
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #react.js
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #TailwindCSS
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #Redux
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #Firebase
+                      </li>
+                     
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #javascript
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #API integration
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  <div
+                    class="h-[1px] left-1/2 right-1/4 bg-[#1788ae] absolute top-1/2 hidden sm:block"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full border-[3px] border-[#47afa1] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+                  ></div>
+                  <a
+                    href="https://watchify-114d9.web.app/"
+                    target="_blank"
+                    class="order-1 sm:order-2 flex w-full relative justify-center sm:justify-start"
+                  >
+                    <div
+                      class="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 sm:ml-auto"
+                    >
+                      <img
+                        class="max-w-[400px] w-full relative rounded-lg z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
+                        src="./assets/images/watchify.webp"
+                        alt=""
+                      />
+                      <span
+                        class="flex group-hover:-top-14 ease-jump duration-200 bg-[#47afa1] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                        >Movie-GPT
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
+                >
+                  <div
+                    class="h-[1px] left-1/4 right-1/2 bg-[#1788ae] absolute top-1/2 hidden sm:block"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full border-[3px] border-[#fc815c] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"
+                  ></div>
+                  <a
+                    href="https://alltube-fe4f7.web.app/"
+                    target="_blank"
+                    class="flex w-full relative justify-center sm:justify-start"
+                  >
+                    <div
+                      class="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200"
+                    >
+                      <img
+                        class="max-w-[400px] w-full mr-auto rounded-lg relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]"
+                        src="./assets/images/alltube.webp"
+                        alt=""
+                      />
+                      <span
+                        class="flex group-hover:-top-14 ease-jump duration-200 bg-[#fc815c] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
+                        >AllTube
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-external-link"
+                        >
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          ></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                          <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+          
+                  <div class="w-full">
+                    <h3 class="text-[#fc815c] font-bold text-2xl md:text-4xl">
+                      AllTube
+                    </h3>
+                    <span class="text-[#fc815c] text-base md:text-lg"
+                      >(PErsonal Project)</span
+                    >
+                    <p class="text-justify text-sm md:text-base mt-2">
+                      Built a functional YouTube clone with search optimization, using debouncing and caching to cut API calls by 50%, and employed React Router Dom for routing. Integrated real-time YouTube live chat with API polling at variable intervals. Managed state for the YouTube sidebar and Dark Mode using Redux-Toolkit.
+                    </p>
+          
+                    <ul class="flex flex-wrap gap-2 mt-2">
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #react.js
+                      </li>
+                      <li
+                      class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                    >
+                      #redux
+                    </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #TailwindCSS
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #javascript
+                      </li>
+                      <li
+                        class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+                      >
+                        #API integration
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="w-[2px] hidden sm:block bg-[#1788ae] absolute top-0 bottom-0 left-1/2 -translate-x-1/2"
+                ></div>
+              </section> -->
+            
+
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in Touch</span>
+                <h2 class="section__title">Contact Me</h2>
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bx-envelope contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">harshraghav718@gmail.com</span>
+                                <a href="mailto:harshraghav718@gmail.com" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon'></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">+91-7509890236</span>
+                                <a href="https://wa.me/917509890236" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-instagram contact__card-icon'></i>
+                                <h3 class="contact__card-title">Instagram</h3>
+                                <span class="contact__card-data">harshraghav58</span>
+                                <a href="https://instagram.com/harshraghav58 " target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me your Project</h3>
+                        <form action="https://formsubmit.co/harshraghav718@gmail.com" method="POST" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Doe" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Email</label>
+                                <input type="email" name="email" id="email" placeholder="abc@gmail.com" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                            </div>
+                            <input name="_formsubmit_id" type="text" style="display:none">
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Harsh Raghav</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/harshraghav718" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://instagram.com/harshraghav58 " target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="https://twitter.com/harshraghav718" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; Harsh Raghav. All rights reserved.
+                </span>
+            </div>
+        </footer>
+
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
